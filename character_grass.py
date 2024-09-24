@@ -54,9 +54,22 @@ def run_circle():
         draw_boy(x, y)
    pass #내용이 없는 빈 함수
 
+def run_right_top():
+   print('rt')
+
+def run_right_bottom():
+   print('rb')
+
+def run_triangle():
+   print('Triangle')
+   run_bottom()
+   run_right_top()
+   run_right_bottom()
+
 while True:
-   run_rectangle()
+   #run_rectangle()
    #run_circle()
+   run_triangle()
    break
 
 close_canvas()
